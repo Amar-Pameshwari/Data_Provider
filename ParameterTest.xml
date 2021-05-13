@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameter Test" parallel="none">
+  <test name="Test Parameter">
+    <parameter name ="browser" value = "Chrome"></parameter>
+    <parameter name ="userName" value = "amar.parmeshwari@gmail.com"></parameter>
+    <parameter name ="Password" value = "Test@1234"></parameter>
+    <classes>
+      <class name="AssessrtionPractice.TestParameter"/>
+            
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

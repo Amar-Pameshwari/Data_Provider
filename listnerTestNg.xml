@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listener Suite" parallel="none">
+
+	<listeners>
+	 -<listener class-name="com.testing.listener.listenerDemo"></listener>
+ 	</listeners>
+ 	
+ 	<test name = "Listener test caseS">
+ 	<classes>
+      <class name="com.testing.listener.sampleDemoExample"></class>
+            
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->

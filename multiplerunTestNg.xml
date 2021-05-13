@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Run multiple testRun suite" parallel="none">
+
+<suite-files>
+	<suite-file path="Sampletestng.xml"></suite-file>
+	<suite-file path="ParameterTest.xml"></suite-file>
+	<suite-file path="DataProvidetTestNG.xml"></suite-file>
+  </suite-files>
+</suite> <!-- Suite -->
